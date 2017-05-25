@@ -16,3 +16,52 @@ BlankSlate is distributed under the terms of the GNU GPL
 
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{font-size:100%;font:inherit;padding:0;border:0;margin:0;vertical-align:baseline}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}.clear{clear:both}
 .sticky{}.bypostauthor{}.wp-caption{}.wp-caption-text{}.gallery-caption{}.alignright{}.alignleft{}.aligncenter{}.screen-reader-text{clip:rect(1px, 1px, 1px, 1px);position:absolute !important}
+
+#wrapper {
+	width: 100%;
+}
+
+#header {
+	height: 600px;
+	background-image: url('images/header.jpg');
+    background-size:cover;
+    background-position: center center;
+    position: relative;
+	background-color: #447837;
+}
+
+#site-title a,
+#site-title a:active,
+#site-title a:hover,
+#site-title2,
+#site-description {
+	color: white;
+	margin-left: 60px;
+}
+
+#site-title2 {
+	font-size: 30px;
+}
+
+#site-description {
+	font-size: 20px;
+}
+
+#menu {
+	top: 25px;
+	right: 60px;
+	position: absolute;
+}
+
+#menu a {
+	margin-left: 35px;
+}
+
+#menu a,
+#menu a:active,
+#menu a:hover {
+	color: #284620;
+	font-size: 1em;
+	text-transform: uppercase;
+	font-weight: 300;
+}

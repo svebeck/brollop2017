@@ -8,16 +8,22 @@
 </head>
 <body <?php body_class(); ?>>
 <div id="wrapper" class="hfeed">
-<header id="header" role="banner">
-<section id="branding">
-<div id="site-title"><?php if ( is_front_page() || is_home() || is_front_page() && is_home() ) { echo '<h1>'; } ?><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_html( get_bloginfo( 'name' ) ); ?>" rel="home"><?php echo esc_html( get_bloginfo( 'name' ) ); ?></a><?php if ( is_front_page() || is_home() || is_front_page() && is_home() ) { echo '</h1>'; } ?></div>
-<div id="site-description"><?php bloginfo( 'description' ); ?></div>
-</section>
-<nav id="menu" role="navigation">
-<div id="search">
-<?php get_search_form(); ?>
-</div>
-<?php wp_nav_menu( array( 'theme_location' => 'main-menu' ) ); ?>
-</nav>
-</header>
-<div id="container">
+	<header id="header" role="banner">
+		<div id="site-title">
+			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="Stefan / Camilla" rel="home">Stefan / Camilla</a>
+		</div>
+
+		<div id="site-title2">
+			Stefan &amp; Camilla
+		</div>
+		<div id="site-description">
+			ska gifta sig på Norrnäs, Värmdö 26 augusti
+		</div>
+		<nav id="menu" role="navigation">
+			<a href="#ceremoni" >Ceremoni</a>
+			<a href="#festinfo" >Festinfo</a>
+			<a href="#boende" >Boende</a>
+			<a href="#osa" >OSA</a>
+		</nav>
+	</header>
+	<div id="container">
