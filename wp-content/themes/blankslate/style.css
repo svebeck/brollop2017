@@ -23,28 +23,61 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 #header {
 	height: 600px;
-	background-image: url('images/header.jpg');
+	background-image: url('images/header2.jpg');
     background-size:cover;
     background-position: center center;
     position: relative;
 	background-color: #447837;
 }
 
-#site-title a,
-#site-title a:active,
-#site-title a:hover,
+#date {
+	text-align: center;
+	margin-top: 265px;
+}
+
+.site-title a,
+.site-title a:active,
+.site-title a:hover,
 #site-title2,
-#site-description {
+#site-description,
+#down-arrow {
 	color: white;
 	margin-left: 60px;
 }
 
+.site-title {
+	padding-top: 25px;
+}
+
 #site-title2 {
 	font-size: 30px;
+	position: absolute;
+	bottom: 150px;
+	font-weight: 300;
 }
 
 #site-description {
 	font-size: 20px;
+	position: absolute;
+	bottom: 120px;
+	font-weight: 200;
+}
+
+#down-arrow {
+	position: absolute;
+	bottom: 40px;
+	-moz-transition: all .5s ease;
+	-webkit-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
+}
+
+#down-arrow:hover {
+	opacity: 1;
+	-moz-transform: scale(1.1) rotate(90deg);
+	-webkit-transform: scale(1.1) rotate(90deg);
+	-o-transform: scale(1.1) rotate(90deg);
+	transform: scale(1.1) rotate(90deg);
 }
 
 #menu {
@@ -53,15 +86,81 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 	position: absolute;
 }
 
-#menu a {
-	margin-left: 35px;
-}
-
 #menu a,
 #menu a:active,
 #menu a:hover {
+	margin-left: 35px;
 	color: #284620;
-	font-size: 1em;
+	font-size: 14px;
 	text-transform: uppercase;
 	font-weight: 300;
+}
+
+#menu a:hover {
+	font-weight: 400;
+}
+
+/* 
+	----- CONTENT
+*/
+
+
+#container .section {
+	margin-top: 100px;
+	padding: 0 30px 0 30px;
+}
+
+.tag {
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #303030;
+	font-weight: 500;
+}
+
+.section-title {
+	font-size: 80px;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #447837;
+}
+
+.section h2 {
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.section p {
+	font-size: 20px;
+	font-weight: 200;
+}
+
+#countdown .days,
+#countdown .info {
+	text-align: center;
+	color: #447837;
+}
+
+#countdown .days {
+	font-size: 155px;
+	font-weight: 500;
+	height: 200px;
+}
+
+#countdown .info {
+	font-size: 56px;
+	font-weight: 300;
+}
+
+/* 
+	----- FOOTER
+*/
+
+#footer {
+	margin-top: 100px;
+	height: 800px;
+	background-image: url('images/footer.jpg');
+    background-size:cover;
+    background-position: center center;
+    position: relative;
+	background-color: #447837;
 }

@@ -25,6 +25,11 @@ jQuery(document).ready(function($) {
 		} // End if
 	});
 
+	var ms = new Date('2017-08-26T00:00:00').getTime() - new Date().getTime();
+	var days = ms/1000/60/60/24;
+	$("#countdown .days")[0].innerHTML = Math.ceil(days);
+	$("#countdown .info")[0].innerHTML = days == 1 ? "day left" : "days left"
+
 	 /* Replace all SVG images with inline SVG
 	 */
 	jQuery('img.svg').each(function(){
@@ -71,7 +76,32 @@ jQuery(document).ready(function($) {
 	{
 		var height = window.innerHeight;
 		$("#header").css("height",height+"px");
+		$("#date").css("margin-top", ((height/2)-190)+"px");
 	}
 });
+
+/*
+
+var x,n=0,rotINT;
+function rotateArrow()
+{
+	x=document.getElementById("down-arrow");
+	clearInterval(rotINT);
+	rotINT=setInterval(startRotate, 10);
+}
+
+function startRotate()
+{
+	n=n+2;
+	x.style.transform="rotate(" + n + "deg)";
+	x.style.webkitTransform="rotate(" + n + "deg)";
+	x.style.OTransform="rotate(" + n + "deg)";
+	x.style.MozTransform="rotate(" + n + "deg)";
+	if (n==90)
+	{
+		clearInterval(rotINT);
+	}
+}
+*/
 
 
