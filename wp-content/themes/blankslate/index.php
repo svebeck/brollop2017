@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 <section id="content" role="main">
-	<section class="row section" id="ceremoni">
-		<div class="small-12 columns tag">Ceremoni</div>
-		<h1 class="small-12 columns section-title">Into the woods</h1>
+	<section class="row section collapse" id="ceremoni">
+		<div class="small-10 columns tag">Ceremoni</div>
+		<h1 class="small-10 columns section-title">Into the woods</h1>
 		<section class="small-12 medium-6 columns party-image">
 			<img src="<?php bloginfo('template_url'); ?>/images/sea.jpg" />
 		</section>
@@ -28,7 +28,7 @@
 			<img src="<?php bloginfo('template_url'); ?>/images/illustration.png" />
 		</section>
 	</section>
-	<section class="row section" id="festinfo">
+	<section class="row section collapse" id="festinfo">
 		<div class="small-12 columns tag">festinfo</div>
 		<h1 class="small-12 columns section-title">Let`s be marry</h1>
 		<section class="small-12 medium-6 columns party-image">
@@ -70,7 +70,7 @@
 			<img src="<?php bloginfo('template_url'); ?>/images/party_jorgen.jpg" />
 		</section>
 	</section>
-	<section class="row section" id="boende">
+	<section class="row section collapse" id="boende">
 		<div class="small-12 columns tag">boende</div>
 		<h1 class="small-12 columns section-title">Vart ska man bo?</h1>
 		<section class="small-12 medium-6 columns party-image">
