@@ -16,7 +16,7 @@
 			<p>Det smidigare sättet att ta sig ut hit är med bil/taxi. Eftersom det är ganska långt ut på Vämdö så är antalet bussar/tider begränsade. Vill man åka kommunalt så är det buss 474 från Slussen, byte i Kolvik och därefter buss 463 mot Sandö brygga. Hållplatsen att kliva av på är Norrnäs Gård.</p>
 		</section>
 		<section class="small-12 medium-6 columns party-image">
-			<img src="<?php bloginfo('template_url'); ?>/images/house.jpg" />
+			<img class="img-house" src="<?php bloginfo('template_url'); ?>/images/house.jpg" />
 		</section>
 	</section>
 	<section class="row section" id="countdown">
