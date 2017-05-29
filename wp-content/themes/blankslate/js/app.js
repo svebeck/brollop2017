@@ -1,6 +1,16 @@
 jQuery(document).ready(function($) {
 	$(document).foundation();
 
+	$.fn.isInViewport = function() {
+	    var elementTop = $(this).offset().top;
+	    var elementBottom = elementTop + $(this).outerHeight();
+
+	    var viewportTop = $(window).scrollTop();
+	    var viewportBottom = viewportTop + $(window).height();
+
+	    return elementBottom > viewportTop && elementTop < viewportBottom;
+	};
+
 	$("a").on('click touch', function(event) {
 		// Make sure this.hash has a value before overriding default behavior
 		if (this.hash !== "") {
@@ -27,8 +37,8 @@ jQuery(document).ready(function($) {
 
 	var ms = new Date('2017-08-26T00:00:00').getTime() - new Date().getTime();
 	var days = ms/1000/60/60/24;
-	$("#countdown .days")[0].innerHTML = Math.ceil(days);
-	$("#countdown .info")[0].innerHTML = days == 1 ? "day left" : "days left"
+	$("#countdown .days")[0].innerHTML = Math.ceil(360);
+	$("#countdown .info")[0].innerHTML = "days left"
 
 	 /* Replace all SVG images with inline SVG
 	 */
@@ -70,14 +80,43 @@ jQuery(document).ready(function($) {
 
 
 	$( window ).resize(resize);
+	$( window ).on("scroll", scroll);
 
 	
+	var countdownStarted;
 	function resize()
 	{
 		var height = window.innerHeight;
 		$("#header").css("height",height+"px");
 		$("#date").css("margin-top", ((height/2)-190)+"px");
 	}
+
+	function scroll()
+	{
+		if (!countdownStarted && $('#countdown').isInViewport()) 
+		{
+			countdownStarted = true;
+			countdown(360);
+	    }
+	}
+
+	function countdown(tmpDays)
+	{
+		$("#countdown .days")[0].innerHTML = Math.ceil(tmpDays);
+		$("#countdown .info")[0].innerHTML = tmpDays == 1 ? "day left" : "days left"
+
+		tmpDays--;
+
+		var timeoutMs = 500 * Math.pow((days/tmpDays), 10);
+
+		if (tmpDays > days)
+		{
+			setTimeout(function() { 
+				countdown(tmpDays); 
+			}, timeoutMs);
+		}
+	}
+
 });
 
 /*
