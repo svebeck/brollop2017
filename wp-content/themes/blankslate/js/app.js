@@ -38,7 +38,7 @@ jQuery(document).ready(function($) {
 	var ms = new Date('2017-08-26T00:00:00').getTime() - new Date().getTime();
 	var days = ms/1000/60/60/24;
 	$("#countdown .days")[0].innerHTML = Math.ceil(360);
-	$("#countdown .info")[0].innerHTML = "days left"
+	$("#countdown .info")[0].innerHTML = "dagar kvar"
 
 	 /* Replace all SVG images with inline SVG
 	 */
@@ -103,11 +103,11 @@ jQuery(document).ready(function($) {
 	function countdown(tmpDays)
 	{
 		$("#countdown .days")[0].innerHTML = Math.ceil(tmpDays);
-		$("#countdown .info")[0].innerHTML = tmpDays == 1 ? "day left" : "days left"
+		$("#countdown .info")[0].innerHTML = tmpDays == 1 ? "dag kvar" : "dagar kvar"
 
 		tmpDays--;
 
-		var timeoutMs = 500 * Math.pow((days/tmpDays), 10);
+		var timeoutMs = 300 * Math.pow((days/tmpDays), 12);
 
 		if (tmpDays > days)
 		{

@@ -117,6 +117,8 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 	text-transform: uppercase;
 	color: #303030;
 	font-weight: 500;
+	padding: 0;
+	margin: 0 0 20px 0;
 }
 
 .section-title {
@@ -124,6 +126,9 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 	font-weight: 500;
 	text-transform: uppercase;
 	color: #447837;
+	padding: 0;
+	margin: 0 0 60px 0;
+	line-height: 60px;
 }
 
 .section h2 {
@@ -132,8 +137,14 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 }
 
 .section p {
+	line-height: 30px;
 	font-size: 20px;
 	font-weight: 200;
+}
+
+#countdown {
+	border-top: solid 1px #7cab71;
+	border-bottom: solid 1px #7cab71;
 }
 
 #countdown .days,
@@ -156,8 +167,27 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 .img-house {
 	margin-left: -130px;
 	margin-top: -140px;
-	min-width: 120%;
+	min-width: 652px;
 }
+
+.col-sea h2 {
+	padding-top: 80px;
+}
+.col-sea p,
+.col-sea h2{
+	margin-left: 80px;
+	max-width: 315px;
+}
+
+.col-house h2 {
+	margin-top: 65px;
+}
+.col-house p,
+.col-house h2{
+	margin-left: 30px;
+	max-width: 330px;
+}
+
 
 /* 
 	----- FOOTER
