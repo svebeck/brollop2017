@@ -158,7 +158,9 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 #countdown .days {
 	font-size: 172px;
 	font-weight: 500;
-	height: 210px;
+	height: 120px;
+	line-height: 120px;
+	margin: 60px 0 20px 0;
 }
 
 #countdown .info {
