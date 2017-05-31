@@ -20,12 +20,12 @@
 		</section>
 	</section>
 	<section class="row section" id="countdown">
-		<section class="small-12 medium-6 columns ">
+		<section class="small-12 medium-4 columns ">
 			<div class="days">---</div> 
 			<div class="info">days left</div>
 		</section>
-		<section class="small-12 medium-6 columns ">
-			<img src="<?php bloginfo('template_url'); ?>/images/illustration.png" />
+		<section class="small-12 medium-8 columns ">
+			<img class="img-illustration" src="<?php bloginfo('template_url'); ?>/images/illustration.png" />
 		</section>
 	</section>
 	<section class="row section collapse" id="festinfo">

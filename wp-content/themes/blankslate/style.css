@@ -143,6 +143,8 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 }
 
 #countdown {
+	padding: 35px 0 0 0;
+	text-align: center;
 	border-top: solid 1px #7cab71;
 	border-bottom: solid 1px #7cab71;
 }
@@ -154,9 +156,9 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 }
 
 #countdown .days {
-	font-size: 155px;
+	font-size: 172px;
 	font-weight: 500;
-	height: 200px;
+	height: 210px;
 }
 
 #countdown .info {
