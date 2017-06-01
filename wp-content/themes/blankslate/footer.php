@@ -1,3 +1,8 @@
+<?php 
+$post   = get_post( 1 );
+$output =  apply_filters( 'the_content', $post->post_content );
+?>
+
 		</div>
 	</div>	
 	<footer id="footer">
@@ -6,6 +11,7 @@
 		</div>
 		<h2 class="osa-date">
 			OSA senast 15 juli
+			<?php echo $output; ?>
 		</h2>
 	</footer>
 <?php wp_footer(); ?>

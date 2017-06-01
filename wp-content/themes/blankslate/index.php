@@ -31,19 +31,20 @@
 	<section class="row section collapse" id="festinfo">
 		<div class="small-12 columns tag">festinfo</div>
 		<h1 class="small-12 columns section-title">Let`s be marry</h1>
-		<section class="small-12 medium-6 columns ">
+		<section class="small-12 medium-5 columns col-party">
 			<h2>OM FESTEN</h2>
 			<p>Festen kommer hållas i Magasinet och middagen serveras från 18.00. Det kommer serveras mat från en foodtruck och här nedan får ni ange om ni  vill äta kött eller vegetariskt till huvudrätt. Meddela om ni har några allergier.</p>
 			<p>Gällande presenter är det så att den största gåvan är er närvaro, men för den som önskar ge något så skulle vi uppskatta ett bidrag till vår bröllopsresa.</p>
 			<p>Vi älskar barn men denna dag vill vi  fira med våra vuxna vänner och släktingar.</p>
 		</section>
-		<section class="small-12 medium-6 columns ">
+		<section class="small-12 medium-7 columns ">
 			<img src="<?php bloginfo('template_url'); ?>/images/party1.jpg" />
 		</section>
-		<section class="small-12 medium-6 columns ">
+		<div class="small-12 medium-12 columns col-spacer"></div>
+		<section class="small-12 medium-6 columns col-sofie">
 			<img src="<?php bloginfo('template_url'); ?>/images/party_sofie.jpg" />
 		</section>
-		<section class="small-12 medium-6 columns ">
+		<section class="small-12 medium-6 columns col-toast col-sofie">
 			<h2>TOASTPAR</h2>
 			<p>Dagen och kvällen kommer styras av Sofie Sandgren, brudens äldsta vapendragare och Jörgen Svebeck, som är brudgummens bror.</p>
 			<p>Vill ni hålla tal/sjunga/dansa/rimma, eller kanske bara säga skål så hör av er till dem så fort som möjligt.</p>
@@ -55,9 +56,7 @@
 				</ul>
 			</section>
 		</section>
-		<section class="small-12 medium-6 columns ">
-			<p>Dagen och kvällen kommer styras av Sofie Sandgren, brudens äldsta vapendragare och Jörgen Svebeck, som är brudgummens bror.</p>
-			<p>Vill ni hålla tal/sjunga/dansa/rimma, eller kanske bara säga skål så hör av er till dem så fort som möjligt.</p>
+		<section class="small-12 medium-6 columns col-jurgen">
 			<section class="toastmaster">
 				<h3 class="name">Jörgen Svebeck</h3>
 				<ul>
@@ -66,34 +65,34 @@
 				</ul>
 			</section>
 		</section>
-		<section class="small-12 medium-6 columns ">
-			<img src="<?php bloginfo('template_url'); ?>/images/party_jorgen.jpg" />
+		<section class="small-12 medium-6 columns">
+			<img class="img-jurgen" src="<?php bloginfo('template_url'); ?>/images/party_jorgen.jpg" />
 		</section>
 	</section>
 	<section class="row section collapse" id="boende">
 		<div class="small-12 columns tag">boende</div>
 		<h1 class="small-12 columns section-title">Vart ska man bo?</h1>
+		<section class="small-12 medium-6 columns col-siggesta">
+			<h2>Beonde</h2>
+			<p>Vi har abonerat flertalet rum på Siggesta Gård, som ligger cirka 10 minuter med transport från festlokalen. Vi har även abonerat rum på ett hotell som ligger lite längre bort i Gustavsbergs centrum. För att boka rum på Siggesta Gård uppge “CamillaStefanbröllop”. Kommer inte finnas rum till alla så det är först till kvarn som gäller.</p>
+		</section>
 		<section class="small-12 medium-6 columns ">
 			<img src="<?php bloginfo('template_url'); ?>/images/siggesta.jpg" />
-			<ul>
+			<ul class="list">
 				<li class="phone">08-562 80 100</li>
 				<li class="website"><a href="http://siggestagard.se">www.siggestagard.se</a></li>
 			</ul>
 		</section>
 		<section class="small-12 medium-6 columns ">
-			<h2>Beonde</h2>
-			<p>Vi har abonerat flertalet rum på Siggesta Gård, som ligger cirka 10 minuter med transport från festlokalen. Vi har även abonerat rum på ett hotell som ligger lite längre bort i Gustavsbergs centrum. För att boka rum på Siggesta Gård uppge “CamillaStefanbröllop”. Kommer inte finnas rum till alla så det är först till kvarn som gäller.</p>
-		</section>
-		<section class="small-12 medium-6 columns ">
-			<h2>Transport</h2>
-			<p>Vi har fixat så en buss kör alla bröllopsgästerna både till Gustavsbergs centrum, där man kan ta sig vidare mot centrum kommunalt, men också till Blå Blom och slutligen Siggesta Gård för de som skall övernatta där.</p>
-		</section>
-		<section class="small-12 medium-6 columns ">
 			<img src="<?php bloginfo('template_url'); ?>/images/blablom.jpg" />
-			<ul>
+			<ul class="list">
 				<li class="phone">08-562 80 100</li>
 				<li class="website"><a href="http://blablom.se">www.blablom.se</a></li>
 			</ul>
+		</section>
+		<section class="small-12 medium-6 columns col-blablom">
+			<h2>Transport</h2>
+			<p>Vi har fixat så en buss kör alla bröllopsgästerna både till Gustavsbergs centrum, där man kan ta sig vidare mot centrum kommunalt, men också till Blå Blom och slutligen Siggesta Gård för de som skall övernatta där.</p>
 		</section>
 	</section>
 </section>

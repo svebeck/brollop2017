@@ -17,6 +17,10 @@ BlankSlate is distributed under the terms of the GNU GPL
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{font-size:100%;font:inherit;padding:0;border:0;margin:0;vertical-align:baseline}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}.clear{clear:both}
 .sticky{}.bypostauthor{}.wp-caption{}.wp-caption-text{}.gallery-caption{}.alignright{}.alignleft{}.aligncenter{}.screen-reader-text{clip:rect(1px, 1px, 1px, 1px);position:absolute !important}
 
+ol li, ul li {
+	list-style: none;
+}
+
 #wrapper {
 	width: 100%;
 }
@@ -127,13 +131,18 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 	text-transform: uppercase;
 	color: #447837;
 	padding: 0;
-	margin: 0 0 60px 0;
+	margin: 0 0 57px 0;
 	line-height: 60px;
 }
 
 .section h2 {
+	text-transform: uppercase;
 	font-size: 16px;
 	font-weight: 500;
+}
+
+.section h3 {
+	text-transform: uppercase;
 }
 
 .section p {
@@ -169,27 +178,93 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 }
 
 .img-house {
-	margin-left: -130px;
+	margin-left: -128px;
 	margin-top: -140px;
-	min-width: 652px;
+	min-width: 650px;
 }
 
 .col-sea h2 {
 	padding-top: 80px;
 }
+
 .col-sea p,
-.col-sea h2{
-	margin-left: 80px;
+.col-sea h2 {
 	max-width: 315px;
 }
 
 .col-house h2 {
 	margin-top: 65px;
 }
+
+.col-party h2,
+.col-party p,
+.col-house h2,
 .col-house p,
-.col-house h2{
+.col-siggesta p,
+.col-siggesta h2 {
 	margin-left: 30px;
+}
+
+.col-toast h2,
+.col-party h2,
+.col-siggesta h2 {
+	margin-top: 35px;
+}
+
+.col-toast p,
+.col-toast h2,
+.col-party p, 
+.col-party h2,
+.col-house p,
+.col-house h2,
+.col-blablom p,
+.col-blablom h2,
+.col-siggesta p,
+.col-siggesta h2 {
 	max-width: 330px;
+}
+
+.col-sea p,
+.col-sea h2,
+.col-toast p,
+.col-toast h2,
+.col-blablom p,
+.col-blablom h2{
+	margin-left: 80px;
+}
+
+.col-sofie .toastmaster {
+	position: relative;
+	bottom: -60px;
+	left: -50px;
+}
+
+.col-spacer {
+	height: 100px;
+}
+
+.col-jurgen .toastmaster {
+	position: relative;
+	right: -330px;
+	top: 220px;
+	width: 330px;
+}
+
+.img-jurgen {
+	margin-top: -150px;
+	margin-left: -30px;
+}
+
+.col-blablom h2 {
+	margin-top: 115px;
+}
+
+.list, .list a {
+	padding: 0;
+	margin: 15px 0 30px 0;
+	color: #447837;
+	font-weight: 200;
+	line-height: 20px;
 }
 
 
