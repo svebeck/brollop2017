@@ -10,6 +10,7 @@
 			<h2>STOCKHOLMS SKÄRGÅRD</h2>
 			<p>Cermonin kommer att hållas i en skogsdunge precis intill festlokalen, Magasinet, som ligger vid Norrnäs Gård på Värmdö. Det är en borglig vigsel och kommer att äga rum 15.30 den 26:e augusti.</p>
 		</section>
+		<div class="small-12 medium-12 columns show-for-large-down col-spacer"></div>
 		<section class="small-12 medium-6 columns col-house">
 			<h2>MAGASINET</h2>
 			<p>Lokalen där festen kommer hållas var en gång i tiden ett sädesmagasin och kommer även användas som alternativ vigselplats om det regnar.</p>

@@ -280,4 +280,153 @@ ol li, ul li {
     background-position: center center;
     position: relative;
 	background-color: #447837;
+	color: #ffffff;
+	font-size: 16px;
+}
+
+#footer h2 {
+	margin-top: 25px;
+}
+
+#footer label {
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+#footer h2,
+#footer label,
+#footer input[type="submit"] {
+	color: #ffffff;
+	margin-left: 60px;
+}
+
+#footer input,
+#footer textarea,
+#footer select {
+	border: 2px solid #ffffff;
+	color: #ffffff;
+	background-color: #447837;
+}
+
+#footer textarea {
+	height: 135px;
+}
+
+#footer select {
+	width: 70px;
+}
+
+#footer input,
+#footer textarea{
+	width: 340px;
+}
+
+#footer .contact-veg,
+#footer .contact-meat {
+	width: 178px;
+	display: inline;
+	text-transform: lowercase;
+}
+
+#footer .contact-veg span,
+#footer .contact-meat span {
+	margin-right: 13px;
+}
+
+.contact-name {
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.contact-what {
+	margin-bottom: 20px;
+}
+
+.contact-other {
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+
+/* Medium and up */
+@media screen and (min-width: 40em) {
+}
+
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+
+}
+
+/* Medium and down */
+@media only screen and (max-width: 64em) { 
+
+}
+
+/* Large and up */
+@media screen and (min-width: 64em) {
+	.show-for-medium-down {
+		display: none !important;
+	}
+}
+
+/* Large only */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {
+
+}
+
+/* Large and down */
+@media only screen and (max-width: 75em) { 
+	.hide-for-large-down {
+		display: none !important;
+	}
+
+	.img-house {
+		margin: 0;
+		min-width: auto;
+	}
+
+	.col-spacer {
+		height: 50px;
+	}
+
+	.col-sea h2 {
+		padding-top: 0;
+	}
+	.col-sea h2,
+	.col-sea p {
+		margin-left: 40px;
+	}
+
+	.col-house h2 {
+		margin-top: 0;
+	}
+
+	.col-party h2,
+	.col-party p,
+	.col-house h2,
+	.col-house p,
+	.col-siggesta p,
+	.col-siggesta h2 {
+		margin-left: 0;
+	}
+
+
+}
+
+/* Above Large */
+@media screen and (min-width: 75em) {
+	.show-for-large-down {
+		display: none !important;
+	}
+}
+
+
+/* Small Only*/
+@media screen and (max-width: 39.9375em) {
+
+}
+
+/* Extra Small Only*/
+@media screen and (max-width: 20.9375em) {
+	body { -webkit-text-size-adjust:100%; -moz-text-size-adjust:100%; -ms-text-size-adjust:100%; } 
 }
