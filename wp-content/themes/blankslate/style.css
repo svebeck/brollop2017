@@ -233,6 +233,14 @@ ol li, ul li {
 	margin-left: 80px;
 }
 
+.toastmaster h3{
+	text-transform: lowercase;
+}
+
+.toastmaster {
+	color: #447837;
+}
+
 .col-sofie .toastmaster {
 	position: relative;
 	bottom: -60px;
@@ -241,6 +249,10 @@ ol li, ul li {
 
 .col-spacer {
 	height: 100px;
+}
+
+.col-spacer2 {
+	height: 30px;
 }
 
 .col-jurgen .toastmaster {
@@ -261,7 +273,7 @@ ol li, ul li {
 
 .list, .list a {
 	padding: 0;
-	margin: 15px 0 30px 0;
+	margin: 15px 0 0 0;
 	color: #447837;
 	font-weight: 200;
 	line-height: 20px;
@@ -348,20 +360,6 @@ ol li, ul li {
 }
 
 
-/* Medium and up */
-@media screen and (min-width: 40em) {
-}
-
-/* Medium only */
-@media screen and (min-width: 40em) and (max-width: 63.9375em) {
-
-}
-
-/* Medium and down */
-@media only screen and (max-width: 64em) { 
-
-}
-
 /* Large and up */
 @media screen and (min-width: 64em) {
 	.show-for-medium-down {
@@ -380,24 +378,58 @@ ol li, ul li {
 		display: none !important;
 	}
 
+	#content {
+		padding: 0 100px 0 100px;
+	}
+
+	.tag {
+		font-size: 20px;
+	}
+
+	.section-title {
+		font-size: 70px;
+		margin: 0 0 57px 0;
+		line-height: 40px;
+	}
+
+	.list, .list a {
+		margin: 15px 0 0 0;
+	}
+
 	.img-house {
-		margin: 0;
-		min-width: auto;
+		margin-left: -64px;
+		margin-top: -100px;
+		min-width: 500px;
 	}
 
 	.col-spacer {
 		height: 50px;
 	}
 
-	.col-sea h2 {
-		padding-top: 0;
+	.col-spacer2 {
+		height: 30px;
 	}
+
+	.col-sea h2 {
+		padding-top: 80px;
+	}
+
+	.col-toast h2,
+	.col-toast p,
 	.col-sea h2,
-	.col-sea p {
+	.col-sea p ,
+	.col-blablom p,
+	.col-blablom h2 {
 		margin-left: 40px;
 	}
 
-	.col-house h2 {
+	.col-toast h2,
+	.col-party h2,
+	.col-house h2,
+	.col-siggesta p,
+	.col-siggesta h2,
+	.col-blablom p,
+	.col-blablom h2  {
 		margin-top: 0;
 	}
 
@@ -408,6 +440,15 @@ ol li, ul li {
 	.col-siggesta p,
 	.col-siggesta h2 {
 		margin-left: 0;
+	}
+
+	.col-party h2,
+	.col-party p,
+	.col-house h2,
+	.col-house p,	
+	.col-siggesta p,
+	.col-siggesta h2 {
+		margin-right: 40px;
 	}
 
 
@@ -421,8 +462,124 @@ ol li, ul li {
 }
 
 
+
+
+/* Medium and up */
+@media screen and (min-width: 40em) {
+}
+
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+
+}
+
+/* Medium and down */
+@media only screen and (max-width: 64em) { 
+
+	#content {
+		padding: 0 80px 0 80px;
+	}
+
+	.tag {
+		font-size: 18px;
+		margin-bottom: 10px;
+	}
+
+	.section-title {
+		font-size: 60px;
+		margin: 0 0 57px 0;
+		line-height: 40px;
+	}
+
+	.img-house {
+		margin-left: 0;
+		margin-top: 0;
+		min-width: auto;
+	}
+
+	.col-sofie .toastmaster {
+		position: relative;
+		bottom: -60px;
+		left: -50px;
+	}
+
+	.col-jurgen .toastmaster {
+		right: -230px;
+		top: 220px;
+	}
+
+	.img-jurgen {
+		margin-top: 0;
+		margin-left: 0;
+	}
+}
+
+
+/* Near-Small and down */
+@media only screen and (max-width: 55em) { 
+
+	#content {
+		padding: 0 40px 0 40px;
+	}
+
+	.col-sea h2 {
+		padding-top: 0;
+	}
+
+	.img-house {
+		margin-left: 0;
+		margin-top: 0;
+		min-width: auto;
+	}
+
+	.col-sofie .toastmaster {
+		position: inherit;
+	}
+
+	.col-jurgen .toastmaster {
+		position: inherit;
+	}
+
+	.img-jurgen {
+		margin-top: 0;
+		margin-left: 0;
+	}
+}
+
 /* Small Only*/
 @media screen and (max-width: 39.9375em) {
+	#content {
+		padding: 0 30px 0 30px;
+	}
+
+	.tag {
+		font-size: 16px;
+		margin-bottom: 10px;
+	}
+
+	.section-title {
+		font-size: 40px;
+		margin: 0 0 37px 0;
+		line-height: 40px;
+	}
+
+	.col-party h2,
+	.col-party p,
+	.col-house h2,
+	.col-house p,	
+	.col-siggesta p,
+	.col-siggesta h2 {
+		margin-right: 0;
+	}
+
+	.col-toast h2,
+	.col-toast p,
+	.col-sea h2,
+	.col-sea p ,
+	.col-blablom p,
+	.col-blablom h2 {
+		margin-left: 0;
+	}
 
 }
 

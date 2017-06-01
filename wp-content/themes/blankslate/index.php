@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 <section id="content" role="main">
 	<section class="row section collapse" id="ceremoni">
-		<div class="small-10 columns tag">Ceremoni</div>
-		<h1 class="small-10 columns section-title">Into the woods</h1>
+		<div class="small-12 columns tag">Ceremoni</div>
+		<h1 class="small-12 columns section-title">Into the woods</h1>
 		<section class="small-12 medium-6 columns ">
 			<img src="<?php bloginfo('template_url'); ?>/images/sea.jpg" />
 		</section>
@@ -21,24 +21,24 @@
 		</section>
 	</section>
 	<section class="row section" id="countdown">
-		<section class="small-12 medium-4 columns ">
+		<section class="small-12 medium-6 large-4 columns ">
 			<div class="days">---</div> 
 			<div class="info">days left</div>
 		</section>
-		<section class="small-12 medium-8 columns ">
+		<section class="small-12 medium-6 large-8 columns ">
 			<img class="img-illustration" src="<?php bloginfo('template_url'); ?>/images/illustration.png" />
 		</section>
 	</section>
 	<section class="row section collapse" id="festinfo">
 		<div class="small-12 columns tag">festinfo</div>
 		<h1 class="small-12 columns section-title">Let`s be marry</h1>
-		<section class="small-12 medium-5 columns col-party">
+		<section class="small-12 medium-6 large-5 columns col-party">
 			<h2>OM FESTEN</h2>
 			<p>Festen kommer hållas i Magasinet och middagen serveras från 18.00. Det kommer serveras mat från en foodtruck och här nedan får ni ange om ni  vill äta kött eller vegetariskt till huvudrätt. Meddela om ni har några allergier.</p>
 			<p>Gällande presenter är det så att den största gåvan är er närvaro, men för den som önskar ge något så skulle vi uppskatta ett bidrag till vår bröllopsresa.</p>
 			<p>Vi älskar barn men denna dag vill vi  fira med våra vuxna vänner och släktingar.</p>
 		</section>
-		<section class="small-12 medium-7 columns ">
+		<section class="small-12 medium-6 large-7 columns ">
 			<img src="<?php bloginfo('template_url'); ?>/images/party1.jpg" />
 		</section>
 		<div class="small-12 medium-12 columns col-spacer"></div>
@@ -57,6 +57,7 @@
 				</ul>
 			</section>
 		</section>
+		<div class="small-12 medium-12 show-only-for-large-down columns col-spacer2"></div>
 		<section class="small-12 medium-6 columns col-jurgen">
 			<section class="toastmaster">
 				<h3 class="name">Jörgen Svebeck</h3>
@@ -84,6 +85,7 @@
 				<li class="website"><a href="http://siggestagard.se">www.siggestagard.se</a></li>
 			</ul>
 		</section>
+		<div class="small-12 medium-12 columns col-spacer2"></div>
 		<section class="small-12 medium-6 columns ">
 			<img src="<?php bloginfo('template_url'); ?>/images/blablom.jpg" />
 			<ul class="list">
