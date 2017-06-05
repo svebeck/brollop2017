@@ -88,7 +88,8 @@ jQuery(document).ready(function($) {
 	{
 		var height = window.innerHeight;
 		$("#header").css("height",height+"px");
-		$("#date").css("margin-top", ((height/2)-190)+"px");
+		$("#splash").css("height",height+"px");
+		$("#date").css("margin-top", -((height/2)+190)+"px");
 	}
 
 	function scroll()

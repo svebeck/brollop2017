@@ -27,16 +27,19 @@ ol li, ul li {
 
 #header {
 	height: 600px;
-	background-image: url('images/header2.jpg');
-    background-size:cover;
-    background-position: center center;
     position: relative;
 	background-color: #447837;
+	max-width: 100%;
+}
+
+#splash {
+	background-image: url('images/header3.jpg');
+    background-size:cover;
+    background-position: center center;
 }
 
 #date {
 	text-align: center;
-	margin-top: 265px;
 }
 
 .site-title a,
@@ -287,13 +290,17 @@ ol li, ul li {
 #footer {
 	margin-top: 100px;
 	height: 800px;
-	background-image: url('images/footer.jpg');
-    background-size:cover;
-    background-position: center center;
     position: relative;
 	background-color: #447837;
 	color: #ffffff;
 	font-size: 16px;
+	max-width: 100%;
+}
+
+#map {
+	background-image: url('images/footer2.jpg');
+    background-size:cover;
+    background-position: center center;
 }
 
 #footer h2 {

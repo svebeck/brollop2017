@@ -8,30 +8,33 @@
 </head>
 <body <?php body_class(); ?>>
 <div id="wrapper" class="hfeed">
-	<header id="header" role="banner">
-		<div class="site-title">
-			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="Stefan / Camilla" rel="home"><img src="<?php bloginfo('template_url'); ?>/images/header_title.png" /></a>
-		</div>
+	<header id="header" role="banner" class="row collapse">	
 
-		<div id="date">
+		<section class="small-12 medium-6 columns">
+			<div class="site-title">
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="Stefan / Camilla" rel="home"><img src="<?php bloginfo('template_url'); ?>/images/header_title.png" /></a>
+			</div>
+			<div id="site-title2">
+				Stefan &amp; Camilla
+			</div>
+			<div id="site-description">
+				ska gifta sig på Norrnäs, Värmdö 26 augusti
+			</div>
+			<div id="down-arrow">
+				<a href="#festinfo"><img src="<?php bloginfo('template_url'); ?>/images/down_arrow.png" /></a>
+			</div>
+		</section>
+		<section id="splash" class="small-12 medium-6 columns">
+			<nav id="menu" role="navigation">
+				<a href="#ceremoni" >Ceremoni</a>
+				<a href="#festinfo" >Festinfo</a>
+				<a href="#boende" >Boende</a>
+				<a href="#footer" >OSA</a>
+			</nav>
+		</section>
+		<div id="date" class="small-12 columns">
 			<img src="<?php bloginfo('template_url'); ?>/images/date.png" />
 		</div>
-
-		<div id="site-title2">
-			Stefan &amp; Camilla
-		</div>
-		<div id="site-description">
-			ska gifta sig på Norrnäs, Värmdö 26 augusti
-		</div>
-		<div id="down-arrow">
-			<a href="#festinfo"><img src="<?php bloginfo('template_url'); ?>/images/down_arrow.png" /></a>
-		</div>
-		<nav id="menu" role="navigation">
-			<a href="#ceremoni" >Ceremoni</a>
-			<a href="#festinfo" >Festinfo</a>
-			<a href="#boende" >Boende</a>
-			<a href="#footer" >OSA</a>
-		</nav>
 	</header>
 	<div id="container" class="row">
 		<div class="small-12 columns">
