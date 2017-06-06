@@ -35,9 +35,17 @@ jQuery(document).ready(function($) {
 		} // End if
 	});
 
+	$('a.menu-burger').on('click touch', function(event) {
+	  $( ".menu-block" ).fadeIn( "fast" );
+	});
+
+	$('.menu-block').on('click touch', function(event) {
+	  $( ".menu-block" ).fadeOut( "fast" );
+	});
+
 	var ms = new Date('2017-08-26T00:00:00').getTime() - new Date().getTime();
 	var days = ms/1000/60/60/24;
-	$("#countdown .days")[0].innerHTML = Math.ceil(360);
+	$("#countdown .days")[0].innerHTML = Math.ceil(90);
 	$("#countdown .info")[0].innerHTML = "dagar kvar"
 
 	 /* Replace all SVG images with inline SVG
@@ -87,13 +95,14 @@ jQuery(document).ready(function($) {
 	function resize()
 	{
 		var height = window.innerHeight;
-		$("#header").css("height",height+"px");
 		$("#splash").css("height",height+"px");
 		$("#date").css("margin-top", -((height/2)+190)+"px");
 	}
 
 	function scroll()
 	{
+	  	$( ".menu-block" ).fadeOut( "fast" );
+
 		if (!countdownStarted && $('#countdown').isInViewport()) 
 		{
 			countdownStarted = true;

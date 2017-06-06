@@ -26,7 +26,6 @@ ol li, ul li {
 }
 
 #header {
-	height: 600px;
     position: relative;
 	background-color: #447837;
 	max-width: 100%;
@@ -159,6 +158,7 @@ ol li, ul li {
 	text-align: center;
 	border-top: solid 1px #7cab71;
 	border-bottom: solid 1px #7cab71;
+	overflow: hidden;
 }
 
 #countdown .days,
@@ -473,6 +473,9 @@ ol li, ul li {
 
 /* Medium and up */
 @media screen and (min-width: 40em) {
+	.show-for-small-down {
+		display: none !important;
+	}
 }
 
 /* Medium only */
@@ -482,6 +485,9 @@ ol li, ul li {
 
 /* Medium and down */
 @media only screen and (max-width: 64em) { 
+	.hide-for-medium-down {
+		display: none !important;
+	}
 
 	#content {
 		padding: 0 80px 0 80px;
@@ -551,6 +557,39 @@ ol li, ul li {
 
 /* Small and down*/
 @media screen and (max-width: 39.9375em) {
+
+	#menu-burger {
+		display: block;
+	}
+
+	#menu {
+		display: none;
+	}
+
+	.menu-block ul {
+		margin: 70px 20px;
+	}
+
+	.menu-block ul li {
+		text-align: center;
+		font-size: 1rem;
+	}
+
+	.menu-block ul a {
+		font-size: 1.875rem;
+		line-height: 3.5rem;
+	}
+
+	.menu-block .menu-cross{
+		text-align: right;
+		margin: 30px 20px 0 0;
+	}
+
+	.menu-block .logo {
+		text-align: left;
+		margin: 20px 0 0 20px;
+	}
+
 	#content {
 		padding: 0 30px 0 30px;
 	}
@@ -564,6 +603,20 @@ ol li, ul li {
 		font-size: 40px;
 		margin: 0 0 37px 0;
 		line-height: 40px;
+	}
+
+	#countdown .days {
+		font-size: 120px;
+		font-weight: 500;
+		height: 80px;
+		line-height: 80px;
+		margin: 20px 0 20px 0;
+	}
+
+	#countdown .info {
+		font-size: 36px;
+		font-weight: 300;
+		margin-bottom: 20px
 	}
 
 	.col-party h2,
@@ -586,7 +639,7 @@ ol li, ul li {
 
 	#footer input,
 	#footer textarea{
-		width: 280px;
+		width: 200px;
 	}
 
 	#footer h2,
@@ -594,6 +647,11 @@ ol li, ul li {
 	#footer input[type="submit"] {
 		margin-left: 30px;
 	}
+
+	#content .toastmaster {
+		width: 250px;
+	}
+
 
 }
 
@@ -603,4 +661,5 @@ ol li, ul li {
 	#content {
 		padding: 0 20px 0 20px;
 	}
+
 }
