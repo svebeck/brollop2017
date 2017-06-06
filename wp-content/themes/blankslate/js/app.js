@@ -83,11 +83,14 @@ jQuery(document).ready(function($) {
 	    }, 'xml');
 	});
 
-
 	resize();
+	var width = window.innerWidth;
+	if (width > 700)
+	{
+		$( window ).resize(resize);
+	}
 
 
-	$( window ).resize(resize);
 	$( window ).on("scroll", scroll);
 
 	
@@ -121,7 +124,7 @@ jQuery(document).ready(function($) {
 		{
 		  	$( ".menu-block" ).fadeOut( "fast" );
 		}
-		
+
 		if (!countdownStarted && $('#countdown').isInViewport()) 
 		{
 			countdownStarted = true;
