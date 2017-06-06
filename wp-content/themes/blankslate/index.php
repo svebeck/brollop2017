@@ -4,7 +4,7 @@
 		<div class="small-12 columns tag">Ceremoni</div>
 		<h1 class="small-12 columns section-title">Into the woods</h1>
 		<section class="small-12 medium-6 columns ">
-			<img src="<?php bloginfo('template_url'); ?>/images/sea.jpg" />
+			<img class="img-sea" src="<?php bloginfo('template_url'); ?>/images/sea.jpg" />
 		</section>
 		<section class="small-12 medium-6 columns col-sea">
 			<h2>STOCKHOLMS SKÄRGÅRD</h2>
@@ -43,7 +43,7 @@
 		</section>
 		<div class="small-12 medium-12 columns col-spacer"></div>
 		<section class="small-12 medium-6 columns col-sofie">
-			<img src="<?php bloginfo('template_url'); ?>/images/party_sofie.jpg" />
+			<img class="img-sofie" src="<?php bloginfo('template_url'); ?>/images/party_sofie.jpg" />
 		</section>
 		<section class="small-12 medium-6 columns col-toast col-sofie">
 			<h2>TOASTPAR</h2>

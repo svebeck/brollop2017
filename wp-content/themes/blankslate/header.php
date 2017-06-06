@@ -10,7 +10,7 @@
 <div id="wrapper" class="hfeed">
 	<header id="header" role="banner" class="row collapse">	
 
-		<section class="small-12 medium-6 columns hide-for-medium-down">
+		<section class="small-12 medium-6 columns hide-for-small-down">
 			<div class="site-title">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="Stefan / Camilla" rel="home"><img src="<?php bloginfo('template_url'); ?>/images/header_title.png" /></a>
 			</div>
@@ -39,6 +39,18 @@
 					<li><a href="#footer" >OSA</a></li>
 				</ul>
 			</nav>
+		</section>
+
+		<section id="small-green-block" class="small-12 medium-6 columns show-for-small-only">
+			<div class="site-title">
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="Stefan / Camilla" rel="home"><img src="<?php bloginfo('template_url'); ?>/images/header_title.png" /></a>
+			</div>
+			<div id="site-description">
+				ska gifta sig på Norrnäs, Värmdö 26 augusti
+			</div>
+			<div id="down-arrow">
+				<a href="#festinfo"><img src="<?php bloginfo('template_url'); ?>/images/down_arrow.png" /></a>
+			</div>
 		</section>
 		<div id="date" class="small-12 columns">
 			<img src="<?php bloginfo('template_url'); ?>/images/date.png" />

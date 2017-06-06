@@ -95,14 +95,33 @@ jQuery(document).ready(function($) {
 	function resize()
 	{
 		var height = window.innerHeight;
-		$("#splash").css("height",height+"px");
-		$("#date").css("margin-top", -((height/2)+190)+"px");
+		var width = window.innerWidth;
+
+		if (width < 600)
+		{
+			height *= .5;
+			$("#splash").css("height",height+"px");
+			$("#small-green-block").css("height",height+"px");
+			$("#date").css("margin-top", -((height)+190)+"px");
+		}
+		else
+		{
+			$("#splash").css("height",height+"px");
+			$("#small-green-block").css("height",height+"px");
+			$("#date").css("margin-top", -((height/2)+190)+"px");
+		}
+
 	}
 
 	function scroll()
 	{
-	  	$( ".menu-block" ).fadeOut( "fast" );
+		var width = window.innerWidth;
 
+		if (width < 600)
+		{
+		  	$( ".menu-block" ).fadeOut( "fast" );
+		}
+		
 		if (!countdownStarted && $('#countdown').isInViewport()) 
 		{
 			countdownStarted = true;

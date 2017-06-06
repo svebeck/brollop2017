@@ -87,23 +87,32 @@ ol li, ul li {
 }
 
 #menu {
+	display: block;
 	top: 25px;
 	right: 60px;
 	position: absolute;
+	font-size: 14px;
+}
+
+#menu li {
+	display: inline;
 }
 
 #menu a,
 #menu a:active,
 #menu a:hover {
 	margin-left: 35px;
-	color: #284620;
-	font-size: 14px;
 	text-transform: uppercase;
 	font-weight: 300;
+	color: #284620;
 }
 
 #menu a:hover {
 	font-weight: 400;
+}
+
+#menu-burger {
+	display: none;
 }
 
 /* 
@@ -557,6 +566,9 @@ ol li, ul li {
 
 /* Small and down*/
 @media screen and (max-width: 39.9375em) {
+	.hide-for-small-down {
+		display: none !important;
+	}
 
 	#menu-burger {
 		display: block;
@@ -564,34 +576,83 @@ ol li, ul li {
 
 	#menu {
 		display: none;
+		top: 0;
+	}
+
+	#menu li {
+		display: block;
+	}
+
+	.menu-block {
+		display: none;
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		background-color: white;
+		z-index: 999;
+		color:black;
 	}
 
 	.menu-block ul {
-		margin: 70px 20px;
+		text-align: left;
+		list-style-type: none;
+		font-weight: 900;
+		margin-top:0px;
 	}
 
 	.menu-block ul li {
-		text-align: center;
-		font-size: 1rem;
+		float:none;
 	}
 
 	.menu-block ul a {
-		font-size: 1.875rem;
-		line-height: 3.5rem;
+		color: black;
+		font-size: 50px;
 	}
 
-	.menu-block .menu-cross{
-		text-align: right;
-		margin: 30px 20px 0 0;
+	#menu a, #menu a:active, #menu a:hover {
+		margin-left: 0;
 	}
 
-	.menu-block .logo {
-		text-align: left;
-		margin: 20px 0 0 20px;
+	.site-title a,
+	.site-title a:active,
+	.site-title a:hover,
+	#site-title2,
+	#site-description,
+	#down-arrow {
+		margin-left: 30px;
+	}
+
+	.site-title {
+		padding-top: 25px;
+	}
+
+	#site-description {
+		font-size: 20px;
+		font-weight: 200;
+	}
+
+	#down-arrow {
+		position: absolute;
+		bottom: 40px;
+		-moz-transition: all .5s ease;
+		-webkit-transition: all .5s ease;
+		-o-transition: all .5s ease;
+		transition: all .5s ease;
+	}
+
+	#date img {
+		width: 50%;
 	}
 
 	#content {
 		padding: 0 30px 0 30px;
+	}
+
+	#footer,
+	#container .section {
+	    margin-top: 60px;
 	}
 
 	.tag {
@@ -637,6 +698,11 @@ ol li, ul li {
 		margin-left: 0;
 	}
 
+	.img-sofie,
+	.img-sea {
+		margin-bottom: 20px;
+	}
+
 	#footer input,
 	#footer textarea{
 		width: 200px;
@@ -651,8 +717,6 @@ ol li, ul li {
 	#content .toastmaster {
 		width: 250px;
 	}
-
-
 }
 
 /* Extra Small and down*/
