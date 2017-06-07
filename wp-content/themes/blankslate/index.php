@@ -60,7 +60,7 @@
 		<section class="small-12 medium-6 columns col-sofie show-for-small-down">
 			<img class="img-sofie" src="<?php bloginfo('template_url'); ?>/images/party_sofie.jpg" />
 		</section>
-		<section class="small-12 medium-6 columns col-toast col-sofie show-small-down">
+		<section class="small-12 medium-6 columns col-toast col-sofie show-for-small-down">
 			<section class="toastmaster">
 				<h3 class="name">Sofie Sandgren</h3>
 				<ul>
