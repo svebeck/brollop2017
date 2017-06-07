@@ -543,6 +543,9 @@ ol li, ul li {
 		padding-top: 0;
 	}
 
+	.toastmaster {
+		margin-left: 40px;
+	}
 
 	.col-sofie .toastmaster {
 		position: inherit;
@@ -550,6 +553,10 @@ ol li, ul li {
 
 	.col-jurgen .toastmaster {
 		position: inherit;
+	}
+
+	.toastmaster ul {
+		margin-left: 0;
 	}
 
 	.img-jurgen {
@@ -599,7 +606,7 @@ ol li, ul li {
 		text-align: left;
 		list-style-type: none;
 		font-weight: 900;
-		margin-top:0px;
+		margin-top:20px;
 	}
 
 	.menu-block ul li {
@@ -698,9 +705,18 @@ ol li, ul li {
 		margin-left: 0;
 	}
 
+	.col-blablom {
+		margin-top: 20px;
+	}
+
+	.img-jurgen,
 	.img-sofie,
 	.img-sea {
 		margin-bottom: 20px;
+	}
+
+	.toastmaster {
+		margin-left: 0px;
 	}
 
 	#footer input,
@@ -717,6 +733,7 @@ ol li, ul li {
 	#content .toastmaster {
 		width: 250px;
 	}
+
 }
 
 /* Extra Small and down*/

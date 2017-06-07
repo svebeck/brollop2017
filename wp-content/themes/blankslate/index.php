@@ -42,13 +42,25 @@
 			<img src="<?php bloginfo('template_url'); ?>/images/party1.jpg" />
 		</section>
 		<div class="small-12 medium-12 columns col-spacer"></div>
-		<section class="small-12 medium-6 columns col-sofie">
+		<section class="small-12 medium-6 columns col-sofie hide-for-small-down">
 			<img class="img-sofie" src="<?php bloginfo('template_url'); ?>/images/party_sofie.jpg" />
 		</section>
 		<section class="small-12 medium-6 columns col-toast col-sofie">
 			<h2>TOASTPAR</h2>
 			<p>Dagen och kvällen kommer styras av Sofie Sandgren, brudens äldsta vapendragare och Jörgen Svebeck, som är brudgummens bror.</p>
 			<p>Vill ni hålla tal/sjunga/dansa/rimma, eller kanske bara säga skål så hör av er till dem så fort som möjligt.</p>
+			<section class="toastmaster hide-for-small-down">
+				<h3 class="name">Sofie Sandgren</h3>
+				<ul>
+					<li class="email">sofie_sandgren@hotmail.com</li>
+					<li class="phone">070 – 943 59 76</li>
+				</ul>
+			</section>
+		</section>
+		<section class="small-12 medium-6 columns col-sofie show-for-small-down">
+			<img class="img-sofie" src="<?php bloginfo('template_url'); ?>/images/party_sofie.jpg" />
+		</section>
+		<section class="small-12 medium-6 columns col-toast col-sofie show-small-down">
 			<section class="toastmaster">
 				<h3 class="name">Sofie Sandgren</h3>
 				<ul>
@@ -57,7 +69,10 @@
 				</ul>
 			</section>
 		</section>
-		<div class="small-12 medium-12 show-only-for-large-down columns col-spacer2"></div>
+		<div class="small-12 medium-12 hide-for-small-down columns col-spacer2"></div>
+		<section class="small-12 medium-6 columns show-for-small-down">
+			<img class="img-jurgen" src="<?php bloginfo('template_url'); ?>/images/party_jorgen.jpg" />
+		</section>
 		<section class="small-12 medium-6 columns col-jurgen">
 			<section class="toastmaster">
 				<h3 class="name">Jörgen Svebeck</h3>
@@ -67,7 +82,7 @@
 				</ul>
 			</section>
 		</section>
-		<section class="small-12 medium-6 columns">
+		<section class="small-12 medium-6 columns hide-for-small-down">
 			<img class="img-jurgen" src="<?php bloginfo('template_url'); ?>/images/party_jorgen.jpg" />
 		</section>
 	</section>
