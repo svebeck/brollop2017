@@ -14,6 +14,14 @@ $output =  apply_filters( 'the_content', $post->post_content );
 				OSA senast 15 juli
 			</h2>
 			<?php echo $output; ?>
+			
+			<section class="contact">
+				<label>Email</label>
+				<ul>
+					<li>svebeck@gmail.com</li>
+					<li>caka902@gmail.com</li>
+				</ul>
+			</section>
 		</section>
 		<section id="map" class="small-12 medium-6 columns">
 

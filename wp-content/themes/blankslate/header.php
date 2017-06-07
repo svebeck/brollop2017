@@ -52,9 +52,9 @@
 				<a href="#festinfo"><img src="<?php bloginfo('template_url'); ?>/images/down_arrow.png" /></a>
 			</div>
 		</section>
-		<div id="date" class="small-12 columns">
+		<div id="date" class="small-12 columns hide-for-small-down">
 			<img src="<?php bloginfo('template_url'); ?>/images/date.png" />
-		</div>
+		</div>	
 	</header>
 	<div id="container" class="row">
 		<div class="small-12 columns">

@@ -323,9 +323,26 @@ ol li, ul li {
 
 #footer h2,
 #footer label,
+#footer ul,
 #footer input[type="submit"] {
 	color: #ffffff;
 	margin-left: 60px;
+}
+
+#footer input[type="submit"] {
+	width: 210px;
+	height: 60px;
+	border-radius: 30px;
+	border-width: 0;
+	background-color: #f38f01;
+	font-size: 22px;
+	text-transform: uppercase;
+	font-weight: 600;
+	box-shadow: 2px 2px 30px #226222;
+}
+
+#footer input[type="submit"]:hover {
+	background-color: #ffaf01;
 }
 
 #footer input,
@@ -373,6 +390,15 @@ ol li, ul li {
 .contact-other {
 	margin-top: 40px;
 	margin-bottom: 20px;
+}
+
+#footer .contact {
+	margin-top: 60px;
+	margin-bottom: 40px;
+}
+
+#footer section {
+	background-color: #447837;
 }
 
 
@@ -638,6 +664,7 @@ ol li, ul li {
 	#site-description {
 		font-size: 20px;
 		font-weight: 200;
+		max-width: 250px;
 	}
 
 	#down-arrow {
@@ -715,6 +742,10 @@ ol li, ul li {
 		margin-bottom: 20px;
 	}
 
+	#content .toastmaster {
+		width: 250px;
+	}
+
 	.toastmaster {
 		margin-left: 0px;
 	}
@@ -724,15 +755,27 @@ ol li, ul li {
 		width: 200px;
 	}
 
+	#footer ul,
 	#footer h2,
 	#footer label,
 	#footer input[type="submit"] {
 		margin-left: 30px;
 	}
 
-	#content .toastmaster {
-		width: 250px;
+	#footer .contact-veg,
+	#footer .contact-meat {
+		display:block;
 	}
+
+	#footer .contact-other {
+		margin-top: 0;
+	}
+
+	#footer #map {
+		height: 700px;
+		background-position: 100% 0%;
+	}
+
 
 }
 
