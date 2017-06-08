@@ -298,7 +298,7 @@ ol li, ul li {
 
 #footer {
 	margin-top: 100px;
-	height: 800px;
+	min-height: 800px;
     position: relative;
 	background-color: #447837;
 	color: #ffffff;
@@ -399,6 +399,14 @@ ol li, ul li {
 
 #footer section {
 	background-color: #447837;
+}
+
+#footer span.wpcf7-not-valid-tip {
+	color: #f38f01;
+}
+
+#footer div.wpcf7-validation-errors {
+	border-color: #ffaf01;
 }
 
 
@@ -555,6 +563,21 @@ ol li, ul li {
 		margin-top: -60px;
 		margin-left: -30px;
 	}
+	
+	#countdown .days {
+		font-size: 140px;
+		font-weight: 500;
+		height: 100px;
+		line-height: 100px;
+		margin: 60px 0 20px 0;
+	}
+
+	#countdown .info {
+		font-size: 36px;
+		font-weight: 300;
+		margin-bottom: 20px
+	}
+
 }
 
 
@@ -595,6 +618,34 @@ ol li, ul li {
 		margin-top: 0;
 		min-width: auto;
 	}
+
+	#footer input,
+	#footer textarea{
+		width: 200px;
+	}
+	
+	#footer .contact-veg,
+	#footer .contact-meat {
+		display:block;
+	}
+	
+	#footer .contact-other {
+		margin-top: 0;
+	}
+
+	#countdown .days {
+		font-size: 120px;
+		font-weight: 500;
+		height: 80px;
+		line-height: 80px;
+		margin: 20px 0 20px 0;
+	}
+
+	#countdown .info {
+		font-size: 36px;
+		font-weight: 300;
+		margin-bottom: 20px
+	}
 }
 
 /* Small and down*/
@@ -605,6 +656,8 @@ ol li, ul li {
 
 	#menu-burger {
 		display: block;
+		text-align: right;
+		margin-right: 10px;
 	}
 
 	#menu {
@@ -700,20 +753,6 @@ ol li, ul li {
 		line-height: 40px;
 	}
 
-	#countdown .days {
-		font-size: 120px;
-		font-weight: 500;
-		height: 80px;
-		line-height: 80px;
-		margin: 20px 0 20px 0;
-	}
-
-	#countdown .info {
-		font-size: 36px;
-		font-weight: 300;
-		margin-bottom: 20px
-	}
-
 	.col-party h2,
 	.col-party p,
 	.col-house h2,
@@ -750,25 +789,12 @@ ol li, ul li {
 		margin-left: 0px;
 	}
 
-	#footer input,
-	#footer textarea{
-		width: 200px;
-	}
 
 	#footer ul,
 	#footer h2,
 	#footer label,
 	#footer input[type="submit"] {
 		margin-left: 30px;
-	}
-
-	#footer .contact-veg,
-	#footer .contact-meat {
-		display:block;
-	}
-
-	#footer .contact-other {
-		margin-top: 0;
 	}
 
 	#footer #map {
