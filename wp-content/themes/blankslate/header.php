@@ -21,7 +21,7 @@
 				ska gifta sig på Norrnäs, Värmdö 26 augusti
 			</div>
 			<div id="down-arrow">
-				<a href="#festinfo"><img src="<?php bloginfo('template_url'); ?>/images/down_arrow.png" /></a>
+				<a href="#ceremoni"><img src="<?php bloginfo('template_url'); ?>/images/down_arrow.png" /></a>
 			</div>
 		</section>
 		<section id="splash" class="small-12 medium-6 columns">
@@ -49,7 +49,7 @@
 				ska gifta sig på Norrnäs, Värmdö 26 augusti
 			</div>
 			<div id="down-arrow">
-				<a href="#festinfo"><img src="<?php bloginfo('template_url'); ?>/images/down_arrow.png" /></a>
+				<a href="#ceremoni"><img src="<?php bloginfo('template_url'); ?>/images/down_arrow.png" /></a>
 			</div>
 		</section>
 		<div id="date" class="small-12 columns hide-for-small-down">

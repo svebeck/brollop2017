@@ -103,12 +103,12 @@ ol li, ul li {
 #menu a:hover {
 	margin-left: 35px;
 	text-transform: uppercase;
-	font-weight: 300;
+	font-weight: 500;
 	color: #284620;
 }
 
 #menu a:hover {
-	font-weight: 400;
+	color: #447837;
 }
 
 #menu-burger {
@@ -676,9 +676,9 @@ ol li, ul li {
 		left: 0;
 		height: 100%;
 		width: 100%;
-		background-color: white;
+		background-color: #447837;
 		z-index: 999;
-		color:black;
+		color:white;
 	}
 
 	.menu-block ul {
@@ -692,8 +692,8 @@ ol li, ul li {
 		float:none;
 	}
 
-	.menu-block ul a {
-		color: black;
+	#header .menu-block ul a {
+		color: white;
 		font-size: 50px;
 	}
 
