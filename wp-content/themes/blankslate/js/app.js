@@ -40,7 +40,13 @@ jQuery(document).ready(function($) {
 	});
 
 	$('.menu-block').on('click touch', function(event) {
-	  $( ".menu-block" ).fadeOut( "fast" );
+
+		var width = window.innerWidth;
+
+		if (width < 600)
+		{
+		  $( ".menu-block" ).fadeOut( "fast" );
+		}
 	});
 
 	var ms = new Date('2017-08-26T00:00:00').getTime() - new Date().getTime();
@@ -122,7 +128,7 @@ jQuery(document).ready(function($) {
 
 		if (width < 600)
 		{
-		  	$( ".menu-block" ).fadeOut( "fast" );
+		  	$( ".menu-block" ).fadeOut( "fast" );	
 		}
 
 		if (!countdownStarted && $('#countdown').isInViewport()) 
