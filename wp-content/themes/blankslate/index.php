@@ -8,7 +8,7 @@
 		</section>
 		<section class="small-12 medium-6 columns col-sea">
 			<h2>STOCKHOLMS SKÄRGÅRD</h2>
-			<p>Cermonin kommer att hållas i en skogsdunge precis intill festlokalen, Magasinet, som ligger vid Norrnäs Gård på Värmdö. Det är en borglig vigsel och kommer att äga rum 15.30 den 26:e augusti.</p>
+			<p>Cermonin kommer att hållas i en skogsdunge precis intill festlokalen, Magasinet, som ligger vid Norrnäs Gård på Värmdö. Det är en borglig vigsel och kommer att äga rum <u>15.30 den 26:e augusti.</u></p>
 		</section>
 		<div class="small-12 medium-12 columns show-for-large-down col-spacer"></div>
 		<section class="small-12 medium-6 columns col-house">
@@ -34,7 +34,7 @@
 		<h1 class="small-12 columns section-title">Let`s be marry</h1>
 		<section class="small-12 medium-6 large-5 columns col-party">
 			<h2>OM FESTEN</h2>
-			<p>Festen kommer hållas i Magasinet och middagen serveras från 18.00. Det kommer serveras mat från en foodtruck och här nedan får ni ange om ni  vill äta kött eller vegetariskt till huvudrätt. Meddela om ni har några allergier.</p>
+			<p>Festen kommer hållas i Magasinet och <u>middagen serveras från 18.00</u>. Det kommer serveras mat från en foodtruck och här nedan får ni ange om ni  vill äta kött eller vegetariskt till huvudrätt. Meddela om ni har några allergier.</p>
 			<p>Gällande presenter är det så att den största gåvan är er närvaro, men för den som önskar ge något så skulle vi uppskatta ett bidrag till vår bröllopsresa.</p>
 			<p>Vi älskar barn men denna dag vill vi  fira med våra vuxna vänner och släktingar.</p>
 		</section>
@@ -47,7 +47,7 @@
 		</section>
 		<section class="small-12 medium-6 columns col-toast col-sofie">
 			<h2>TOASTPAR</h2>
-			<p>Dagen och kvällen kommer styras av Sofie Sandgren, brudens äldsta vapendragare och Jörgen Svebeck, som är brudgummens bror.</p>
+			<p>Dagen och kvällen kommer styras av <u>Sofie Sandgren</u>, brudens äldsta vapendragare och <u>Jörgen Svebeck</u>, som är brudgummens bror.</p>
 			<p>Vill ni hålla tal/sjunga/dansa/rimma, eller kanske bara säga skål så hör av er till dem så fort som möjligt.</p>
 			<section class="toastmaster hide-for-small-down">
 				<h3 class="name">Sofie Sandgren</h3>

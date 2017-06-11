@@ -21,6 +21,11 @@ ol li, ul li {
 	list-style: none;
 }
 
+u {
+    box-shadow: inset 0 1px 0 white, inset 0 -1px 0 black;
+    text-decoration: none;
+}
+
 #wrapper {
 	width: 100%;
 }
