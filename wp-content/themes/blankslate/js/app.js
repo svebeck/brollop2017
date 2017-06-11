@@ -117,7 +117,7 @@ jQuery(document).ready(function($) {
 		{
 			$("#splash").css("height",height+"px");
 			$("#small-green-block").css("height",height+"px");
-			$("#date").css("margin-top", -((height/2)+190)+"px");
+			$("#date").css("margin-top", -((height/2)+124)+"px");
 		}
 
 	}

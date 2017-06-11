@@ -532,6 +532,10 @@ ol li, ul li {
 		display: none !important;
 	}
 
+	#date img {
+		max-width: 300px;
+	}
+
 	#content {
 		padding: 0 80px 0 80px;
 	}
@@ -727,10 +731,6 @@ ol li, ul li {
 		-webkit-transition: all .5s ease;
 		-o-transition: all .5s ease;
 		transition: all .5s ease;
-	}
-
-	#date img {
-		width: 50%;
 	}
 
 	#content {
