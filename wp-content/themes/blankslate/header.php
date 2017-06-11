@@ -42,8 +42,8 @@
 		</section>
 
 		<section id="small-green-block" class="small-12 medium-6 columns show-for-small-only">
-			<div class="site-title">
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="Stefan / Camilla" rel="home"><img src="<?php bloginfo('template_url'); ?>/images/header_title.png" /></a>
+			<div id="site-title2">
+				Stefan &amp; Camilla
 			</div>
 			<div id="site-description">
 				ska gifta sig på Norrnäs, Värmdö 26 augusti

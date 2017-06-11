@@ -623,6 +623,17 @@ u {
 	#content {
 		padding: 0 40px 0 40px;
 	}
+	
+	#site-title2 {
+	    position: absolute;
+    	bottom: 185px;
+	}
+
+	#site-description {
+		font-size: 20px;
+		font-weight: 200;
+		max-width: 250px;
+	}
 
 	.col-sea h2 {
 		padding-top: 0;
@@ -758,11 +769,6 @@ u {
 		padding-top: 25px;
 	}
 
-	#site-description {
-		font-size: 20px;
-		font-weight: 200;
-		max-width: 250px;
-	}
 
 	#down-arrow {
 		position: absolute;
