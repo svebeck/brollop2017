@@ -801,7 +801,7 @@ u {
 		font-size: 40px;
 		margin: 0 0 37px 0;
 		line-height: 48px;
-	}
+	}	
 
 	.col-party h2,
 	.col-party p,
@@ -821,16 +821,6 @@ u {
 		margin-left: 0;
 	}
 
-	.col-blablom {
-		margin-top: 20px;
-	}
-
-	.img-jurgen,
-	.img-sofie,
-	.img-sea {
-		margin-bottom: 20px;
-	}
-
 	#content .toastmaster {
 		width: 250px;
 	}
@@ -839,6 +829,30 @@ u {
 		margin-left: 0px;
 	}
 
+	#content section p {
+		margin-bottom: 1rem;
+	}
+
+	.col-party,
+	.col-house,
+	.col-sea,
+	.col-sofie,
+	.img-jurgen {
+		margin-bottom: 12px;
+	}
+	.col-siggesta,
+	.col-blablom {
+		margin-bottom: 25px;
+	}
+	.img-party,
+	.img-sea {
+		margin-bottom: 25px;
+	}
+
+	#content section.col-siggesta p,
+	#content section.col-blablom p {
+		margin-bottom: 0;
+	}
 
 	#footer ul,
 	#footer h2,

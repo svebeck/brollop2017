@@ -10,7 +10,7 @@
 			<h2>STOCKHOLMS SKÄRGÅRD</h2>
 			<p>Cermonin kommer att hållas i en skogsdunge precis intill festlokalen, Magasinet, som ligger vid Norrnäs Gård på Värmdö. Det är en borglig vigsel och kommer att äga rum <u>15.30 den 26:e augusti.</u></p>
 		</section>
-		<div class="small-12 medium-12 columns show-for-large-down col-spacer"></div>
+		<div class="small-12 medium-12 columns show-for-large-down col-spacer hide-for-small-down"></div>
 		<section class="small-12 medium-6 columns col-house">
 			<h2>MAGASINET</h2>
 			<p>Lokalen där festen kommer hållas var en gång i tiden ett sädesmagasin och kommer även användas som alternativ vigselplats om det regnar.</p>
@@ -39,9 +39,9 @@
 			<p>Vi älskar barn men denna dag vill vi  fira med våra vuxna vänner och släktingar.</p>
 		</section>
 		<section class="small-12 medium-6 large-7 columns ">
-			<img src="<?php bloginfo('template_url'); ?>/images/party1.jpg" />
+			<img class="img-party" src="<?php bloginfo('template_url'); ?>/images/party1.jpg" />
 		</section>
-		<div class="small-12 medium-12 columns col-spacer"></div>
+		<div class="small-12 medium-12 columns col-spacer hide-for-small-down"></div>
 		<section class="small-12 medium-6 columns col-sofie hide-for-small-down">
 			<img class="img-sofie" src="<?php bloginfo('template_url'); ?>/images/party_sofie.jpg" />
 		</section>
@@ -69,7 +69,7 @@
 				</ul>
 			</section>
 		</section>
-		<div class="small-12 medium-12 hide-for-small-down columns col-spacer2"></div>
+		<div class="small-12 medium-12 hide-for-small-down columns col-spacer2 hide-for-small-down"></div>
 		<section class="small-12 medium-6 columns show-for-small-down">
 			<img class="img-jurgen" src="<?php bloginfo('template_url'); ?>/images/party_jorgen.jpg" />
 		</section>
@@ -93,16 +93,16 @@
 			<h2>Beonde</h2>
 			<p>Vi har abonerat flertalet rum på Siggesta Gård, som ligger cirka 10 minuter med transport från festlokalen. Vi har även abonerat rum på ett hotell som ligger lite längre bort i Gustavsbergs centrum. För att boka rum på Siggesta Gård uppge “CamillaStefanbröllop”. Kommer inte finnas rum till alla så det är först till kvarn som gäller.</p>
 		</section>
-		<section class="small-12 medium-6 columns ">
-			<img src="<?php bloginfo('template_url'); ?>/images/siggesta.jpg" />
+		<section class="small-12 medium-6 columns col-siggesta">
+			<img class="img-siggesta" src="<?php bloginfo('template_url'); ?>/images/siggesta.jpg" />
 			<ul class="list">
 				<li class="phone">08-562 80 100</li>
 				<li class="website"><a href="http://siggestagard.se">www.siggestagard.se</a></li>
 			</ul>
 		</section>
-		<div class="small-12 medium-12 columns col-spacer2"></div>
-		<section class="small-12 medium-6 columns ">
-			<img src="<?php bloginfo('template_url'); ?>/images/blablom.jpg" />
+		<div class="small-12 medium-12 columns col-spacer2 hide-for-small-down"></div>
+		<section class="small-12 medium-6 columns col-blablom">
+			<img class="img-blablom" src="<?php bloginfo('template_url'); ?>/images/blablom.jpg" />
 			<ul class="list">
 				<li class="phone">08‑574 112 60</li>
 				<li class="website"><a href="http://blablom.se">www.blablom.se</a></li>
