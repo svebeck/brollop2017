@@ -16,10 +16,16 @@ $output =  apply_filters( 'the_content', $post->post_content );
 			<?php echo $output; ?>
 
 			<div class="contact">
-				<label>Email</label>
+				<label>kontakt</label>
 				<ul>
+					<li>Stefan</li>
 					<li>svebeck@gmail.com</li>
+					<li>073 - 915 54 23</li>
+				</ul>
+				<ul>
+					<li>Camilla</li>
 					<li>caka902@gmail.com</li>
+					<li>070 - 611 30 64</li>
 				</ul>
 			</div>
 		</section>

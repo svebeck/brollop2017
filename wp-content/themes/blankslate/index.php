@@ -77,8 +77,8 @@
 			<section class="toastmaster">
 				<h3 class="name">Jörgen Svebeck</h3>
 				<ul>
-					<li class="email">sofie_sandgren@hotmail.com</li>
-					<li class="phone">070 – 943 59 76</li>
+					<li class="email">jsvebeck@gmail.com</li>
+					<li class="phone">076 - 762 22 40</li>
 				</ul>
 			</section>
 		</section>
@@ -104,7 +104,7 @@
 		<section class="small-12 medium-6 columns ">
 			<img src="<?php bloginfo('template_url'); ?>/images/blablom.jpg" />
 			<ul class="list">
-				<li class="phone">08-562 80 100</li>
+				<li class="phone">08‑574 112 60</li>
 				<li class="website"><a href="http://blablom.se">www.blablom.se</a></li>
 			</ul>
 		</section>

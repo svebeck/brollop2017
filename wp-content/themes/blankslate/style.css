@@ -59,7 +59,8 @@ ol li, ul li {
 	font-size: 30px;
 	position: absolute;
 	bottom: 150px;
-	font-weight: 300;
+	font-weight: 400;
+	text-transform: lowercase;
 }
 
 #site-description {
@@ -142,7 +143,7 @@ ol li, ul li {
 	text-transform: uppercase;
 	color: #447837;
 	padding: 0;
-	margin: 0 0 57px 0;
+	margin: 0 0 57px -4px;
 	line-height: 60px;
 }
 
@@ -247,10 +248,19 @@ ol li, ul li {
 
 .toastmaster h3{
 	text-transform: lowercase;
+	font-size: 48px;
+	font-weight: 500;
+	margin-bottom: 0;
 }
 
 .toastmaster {
 	color: #447837;
+}
+
+.toastmaster ul {
+	font-size: 20px;
+	font-weight: 400;
+	margin-left: 0;
 }
 
 .col-sofie .toastmaster {
@@ -330,8 +340,8 @@ ol li, ul li {
 }
 
 #footer input[type="submit"] {
-	width: 210px;
-	height: 60px;
+	width: 190px;
+	height: 55px;
 	border-radius: 30px;
 	border-width: 0;
 	background-color: #f38f01;
@@ -395,6 +405,19 @@ ol li, ul li {
 #footer .contact {
 	margin-top: 60px;
 	margin-bottom: 40px;
+	white-space: nowrap;
+}
+
+#footer .contact ul {
+	margin-right: 80px;
+	float: left;
+	max-width: 80px;
+	margin-bottom: 30px;
+	text-transform: lowercase;
+}
+
+#footer .contact label {
+	margin-bottom: 5px;
 }
 
 #footer section {
@@ -582,6 +605,10 @@ ol li, ul li {
 		margin-bottom: 20px
 	}
 
+	#footer .contact ul {
+		margin-right: 40px;
+	}
+
 }
 
 
@@ -626,6 +653,14 @@ ol li, ul li {
 	#footer input,
 	#footer textarea{
 		width: 200px;
+	}
+
+	#footer .contact {
+		font-size: 14px;
+	}
+
+	#footer .contact ul {
+		margin-right: 20px;
 	}
 	
 	#footer .contact-veg,
@@ -795,6 +830,10 @@ ol li, ul li {
 	#footer label,
 	#footer input[type="submit"] {
 		margin-left: 30px;
+	}
+
+	#footer .contact {
+		font-size: 12px;
 	}
 
 	#footer #map {
