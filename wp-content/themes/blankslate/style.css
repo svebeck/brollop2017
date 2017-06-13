@@ -92,6 +92,23 @@ u {
 	transform: scale(1.1) rotate(90deg);
 }
 
+#up-arrow {
+	width: 46px;
+	float: right;
+	-moz-transition: all .5s ease;
+	-webkit-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
+}
+
+#up-arrow:hover {
+	opacity: 1;
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
 #menu {
 	display: block;
 	top: 25px;
@@ -270,7 +287,7 @@ u {
 
 .col-sofie .toastmaster {
 	position: relative;
-	bottom: -60px;
+	bottom: -40px;
 	left: -50px;
 }
 
@@ -284,7 +301,7 @@ u {
 
 .col-jurgen .toastmaster {
 	position: relative;
-	right: -330px;
+	right: -210px;
 	top: 220px;
 	width: 330px;
 }
@@ -586,12 +603,12 @@ u {
 
 	.col-sofie .toastmaster {
 		position: relative;
-		bottom: -60px;
-		left: -50px;
+		bottom: -30px;
+		left: -30px;
 	}
 
 	.col-jurgen .toastmaster {
-		right: -230px;
+		right: -180px;
 		top: 220px;
 	}
 
@@ -777,6 +794,15 @@ u {
 	#down-arrow {
 		position: absolute;
 		bottom: 40px;
+		-moz-transition: all .5s ease;
+		-webkit-transition: all .5s ease;
+		-o-transition: all .5s ease;
+		transition: all .5s ease;
+	}
+
+	#up-arrow {
+		width: 46px;
+		float: right;
 		-moz-transition: all .5s ease;
 		-webkit-transition: all .5s ease;
 		-o-transition: all .5s ease;

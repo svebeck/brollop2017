@@ -71,7 +71,7 @@
 		</section>
 		<div class="small-12 medium-12 hide-for-small-down columns col-spacer2 hide-for-small-down"></div>
 		<section class="small-12 medium-6 columns show-for-small-down">
-			<img class="img-jurgen" src="<?php bloginfo('template_url'); ?>/images/party_jorgen.jpg" />
+			<img class="img-jurgen" src="<?php bloginfo('template_url'); ?>/images/party_jorgen2.jpg" />
 		</section>
 		<section class="small-12 medium-6 columns col-jurgen">
 			<section class="toastmaster">
@@ -83,7 +83,7 @@
 			</section>
 		</section>
 		<section class="small-12 medium-6 columns hide-for-small-down">
-			<img class="img-jurgen" src="<?php bloginfo('template_url'); ?>/images/party_jorgen.jpg" />
+			<img class="img-jurgen" src="<?php bloginfo('template_url'); ?>/images/party_jorgen2.jpg" />
 		</section>
 	</section>
 	<section class="row section collapse" id="boende">
@@ -113,5 +113,14 @@
 			<p>Vi har fixat så en buss kör alla bröllopsgästerna både till Gustavsbergs centrum, där man kan ta sig vidare mot centrum kommunalt, men också till Blå Blom och slutligen Siggesta Gård för de som skall övernatta där.</p>
 		</section>
 	</section>
+
 </section>
+
+<div class="row">
+	<div class="small-12 columns">
+		<div id="up-arrow">
+			<a href="#header"><img src="<?php bloginfo('template_url'); ?>/images/up_arrow.png" /></a>
+		</div>
+	</div>
+</div>
 <?php get_footer(); ?>
