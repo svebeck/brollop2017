@@ -4,11 +4,12 @@
 		<div class="small-12 columns tag">Ceremoni</div>
 		<h1 class="small-12 columns section-title">Into the woods</h1>
 		<section class="small-12 medium-6 columns ">
+			<p class="byline left">vigselplats</p>
 			<img class="img-sea" src="<?php bloginfo('template_url'); ?>/images/sea.jpg" />
 		</section>
 		<section class="small-12 medium-6 columns col-sea">
 			<h2>STOCKHOLMS SKÄRGÅRD</h2>
-			<p>Cermonin kommer att hållas i en skogsdunge precis intill festlokalen, Magasinet, som ligger vid Norrnäs Gård på Värmdö. Det är en borglig vigsel och kommer att äga rum <u>15.30 den 26:e augusti.</u></p>
+			<p>Cermonin kommer att hållas i en skogsdunge precis intill festlokalen, Magasinet, som ligger vid Norrnäs Gård på Värmdö. Det är en borglig vigsel och kommer att äga rum <u>16.00, 26 augusti.</u></p>
 		</section>
 		<div class="small-12 medium-12 columns show-for-large-down col-spacer hide-for-small-down"></div>
 		<section class="small-12 medium-6 columns col-house">
@@ -16,7 +17,8 @@
 			<p>Lokalen där festen kommer hållas var en gång i tiden ett sädesmagasin och kommer även användas som alternativ vigselplats om det regnar.</p>
 			<p>Det smidigare sättet att ta sig ut hit är med bil/taxi. Eftersom det är ganska långt ut på Vämdö så är antalet bussar/tider begränsade. Vill man åka kommunalt så är det buss 474 från Slussen, byte i Kolvik och därefter buss 463 mot Sandö brygga. Hållplatsen att kliva av på är Norrnäs Gård.</p>
 		</section>
-		<section class="small-12 medium-6 columns ">
+		<section class="small-12 medium-6 columns col-house">
+			<p class="byline right">festlokal</p>
 			<img class="img-house" src="<?php bloginfo('template_url'); ?>/images/house.jpg" />
 		</section>
 	</section>
@@ -34,15 +36,16 @@
 		<h1 class="small-12 columns section-title">Let`s be marry</h1>
 		<section class="small-12 medium-6 large-5 columns col-party">
 			<h2>OM FESTEN</h2>
-			<p>Festen kommer hållas i Magasinet och <u>middagen serveras från 18.00</u>. Det kommer serveras mat från en foodtruck och här nedan får ni ange om ni  vill äta kött eller vegetariskt till huvudrätt. Meddela om ni har några allergier.</p>
-			<p>Gällande presenter är det så att den största gåvan är er närvaro, men för den som önskar ge något så skulle vi uppskatta ett bidrag till vår bröllopsresa.</p>
-			<p>Vi älskar barn men denna dag vill vi  fira med våra vuxna vänner och släktingar.</p>
+			<p>Festen kommer hållas i Magasinet och <u>middagen serveras från 18.00</u>. Det kommer serveras mat från en foodtruck och i <a href="#footer">OSA-formuläret</a> nedan får ni ange om ni vill äta kött eller vegetariskt till huvudrätt. Meddela också om ni har några allergier.</p>
+			<p>Gällande presenter är den största gåvan er närvaro, men för den som önskar så skulle vi uppskatta ett bidrag till vår bröllopsresa.</p>
+			<p>Vi älskar barn men denna dag vill vi fira med våra vuxna vänner och släktingar.</p>
 		</section>
 		<section class="small-12 medium-6 large-7 columns ">
 			<img class="img-party" src="<?php bloginfo('template_url'); ?>/images/party1.jpg" />
 		</section>
 		<div class="small-12 medium-12 columns col-spacer hide-for-small-down"></div>
 		<section class="small-12 medium-6 columns col-sofie hide-for-small-down">
+			<p class="byline left">toastmaster</p>
 			<img class="img-sofie" src="<?php bloginfo('template_url'); ?>/images/party_sofie.jpg" />
 		</section>
 		<section class="small-12 medium-6 columns col-toast col-sofie">
@@ -82,7 +85,8 @@
 				</ul>
 			</section>
 		</section>
-		<section class="small-12 medium-6 columns hide-for-small-down">
+		<section class="small-12 medium-6 columns hide-for-small-down col-jurgen">
+			<p class="byline right">toastmaster</p>
 			<img class="img-jurgen" src="<?php bloginfo('template_url'); ?>/images/party_jorgen2.jpg" />
 		</section>
 	</section>
@@ -90,10 +94,11 @@
 		<div class="small-12 columns tag">boende</div>
 		<h1 class="small-12 columns section-title">Vart ska man bo?</h1>
 		<section class="small-12 medium-6 columns col-siggesta">
-			<h2>Beonde</h2>
-			<p>Vi har abonerat flertalet rum på Siggesta Gård, som ligger cirka 10 minuter med transport från festlokalen. Vi har även abonerat rum på ett hotell som ligger lite längre bort i Gustavsbergs centrum. För att boka rum på Siggesta Gård uppge “CamillaStefanbröllop”. Kommer inte finnas rum till alla så det är först till kvarn som gäller.</p>
+			<h2>Beonde alternativ</h2>
+			<p>Vi har abonnerat flertalet rum på Siggesta Gård (1700 kr/dubbelrum) som ligger cirka 10 minuter med transport från festlokalen och hotell Blå Blom (1475 kr/dubbelrum) som ligger i Gustavsberg. För att boka rum uppge “CamillaStefanbröllop”. Var gärna ute i god tid då vi inte hade möjlighet att abonnera alla rum.</p>
 		</section>
 		<section class="small-12 medium-6 columns col-siggesta">
+			<p class="byline right">Siggesta Gård</p>
 			<img class="img-siggesta" src="<?php bloginfo('template_url'); ?>/images/siggesta.jpg" />
 			<ul class="list">
 				<li class="phone">08-562 80 100</li>
@@ -102,6 +107,7 @@
 		</section>
 		<div class="small-12 medium-12 columns col-spacer2 hide-for-small-down"></div>
 		<section class="small-12 medium-6 columns col-blablom">
+			<p class="byline left">Hotell blå blom</p>
 			<img class="img-blablom" src="<?php bloginfo('template_url'); ?>/images/blablom.jpg" />
 			<ul class="list">
 				<li class="phone">08‑574 112 60</li>
@@ -110,17 +116,17 @@
 		</section>
 		<section class="small-12 medium-6 columns col-blablom">
 			<h2>Transport</h2>
-			<p>Vi har fixat så en buss kör alla bröllopsgästerna både till Gustavsbergs centrum, där man kan ta sig vidare mot centrum kommunalt, men också till Blå Blom och slutligen Siggesta Gård för de som skall övernatta där.</p>
+			<p>Vi har ordnat en buss som kör alla bröllopsgästerna kl 02.00 från festen till både Siggesta Gård och Gustavsbergs centrum (Blå Blom). Från Gustavsbergs centrum kan man även kan ta sig vidare mot city kommunalt. Om man vill ta en taxi rekommenderar vi Värmdö Taxi 08-570 357 00</p>
 		</section>
 	</section>
 
-</section>
-
-<div class="row">
-	<div class="small-12 columns">
-		<div id="up-arrow">
-			<a href="#header"><img src="<?php bloginfo('template_url'); ?>/images/up_arrow.png" /></a>
+	<div class="row collapse">
+		<div class="small-12 columns">
+			<div id="up-arrow">
+				<a href="#header">Upp <img src="<?php bloginfo('template_url'); ?>/images/up_arrow.png" /></a>
+			</div>
 		</div>
 	</div>
-</div>
+</section>
+
 <?php get_footer(); ?>

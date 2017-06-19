@@ -3,6 +3,7 @@
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <meta name="viewport" content="width=device-width" />
+<meta name="format-detection" content="telephone=no">
 <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>" />
 <?php wp_head(); ?>
 </head>
@@ -18,7 +19,7 @@
 				Stefan &amp; Camilla
 			</div>
 			<div id="site-description">
-				ska gifta sig på Norrnäs, Värmdö 26 augusti
+				ska gifta sig på Norrnäs Gård, Värmdö 26 augusti
 			</div>
 			<div id="down-arrow">
 				<a href="#ceremoni"><img src="<?php bloginfo('template_url'); ?>/images/down_arrow.png" /></a>
@@ -46,7 +47,7 @@
 				Stefan &amp; Camilla
 			</div>
 			<div id="site-description">
-				ska gifta sig på Norrnäs, Värmdö 26 augusti
+				ska gifta sig på Norrnäs Gård, Värmdö 26 augusti
 			</div>
 			<div id="down-arrow">
 				<a href="#ceremoni"><img src="<?php bloginfo('template_url'); ?>/images/down_arrow.png" /></a>

@@ -18,19 +18,19 @@ $output =  apply_filters( 'the_content', $post->post_content );
 			<div class="contact">
 				<label>kontakt</label>
 				<ul>
-					<li>Stefan</li>
+					<li class="name">Stefan</li>
 					<li>svebeck@gmail.com</li>
 					<li>073 - 915 54 23</li>
 				</ul>
 				<ul>
-					<li>Camilla</li>
+					<li class="name">Camilla</li>
 					<li>caka902@gmail.com</li>
 					<li>070 - 611 30 64</li>
 				</ul>
 			</div>
 		</section>
 		<section id="map" class="small-12 medium-6 columns">
-
+			<a href="https://goo.gl/maps/pC25ywRzpuQ2" target="_blank">GOOGLE MAPS ></a>
 		</section>
 	</footer>
 <?php wp_footer(); ?>
