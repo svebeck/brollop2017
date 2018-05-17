@@ -13,7 +13,6 @@ $output =  apply_filters( 'the_content', $post->post_content );
 			<h2 class="osa-date">
 				OSA senast 15 juli
 			</h2>
-			<?php echo $output; ?>
 
 			<div class="contact">
 				<label>kontakt</label>
